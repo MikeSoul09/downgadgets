@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Down Gadgets</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 min-h-screen flex flex-col">
+
+<!-- NAVBAR -->
+<header class="bg-white shadow-sm border-b w-full">
+  <div class="w-full px-8 py-4 flex justify-between items-center">
+    <a href="index.html">
+        <h1 class="text-3xl font-bold">
+          <span class="text-indigo-600">Down</span> Gadgets
+        </h1>
+    </a>
+
+    <nav class="flex items-center space-x-6 text-gray-700">
+      <a href="#" class="hover:text-indigo-600">Más vendidas</a>
+      <a href="#" class="hover:text-indigo-600">Ofertas</a>
+      <a href="#" class="hover:text-indigo-600">Liquidaciones</a>
+
+      <a href="signup.html" class="hover:text-indigo-600">Sign Up</a>
+      <a href="login.html" class="hover:text-indigo-600">Log in</a>
+
+      <a href="carrito.html" class="relative">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+             stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 100 6 3 3 0 000-6zm9.75 0a3 3 0 100 6 3 3 0 000-6zM7.5 14.25h9.75m-12-8.25h14.25l-1.5 6h-12l-1.5-6z"/>
+        </svg>
+
+        <span class="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full px-1">2</span>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<!-- CONTENIDO PRINCIPAL -->
+<main class="flex-1 w-full px-10 py-10">
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
+
+    <!-- MÁS VENDIDAS -->
+    <div class="bg-white shadow-sm rounded-lg border p-6">
+      <h2 class="font-semibold text-lg mb-3">Más vendidas</h2>
+
+      <div class="w-full h-48 border-2 border-dashed rounded-md flex items-center justify-center overflow-hidden">
+        <a href="producto.html">
+        <img src="https://www.redlemon.com.mx/cdn/shop/files/01_5e828ea6-d3bf-4815-8065-930f90d1a62f.jpg" class="h-full object-cover"></a>
+      </div>
+
+      <button class="w-full mt-6 py-2 border rounded-md">Audífonos</button>
+      <button class="w-full mt-3 py-2 border rounded-md">Asistentes Inteligentes</button>
+    </div>
+
+    <!-- OFERTAS -->
+    <div class="bg-white shadow-sm rounded-lg border p-6">
+      <h2 class="font-semibold text-lg mb-3">Ofertas</h2>
+
+      <div class="w-full h-48 border-2 border-dashed rounded-md flex items-center justify-center text-gray-400">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_748181-MLA81177513292_122024-O.webp" class="h-full object-cover">
+      </div>
+
+      <button class="w-full mt-6 py-2 border rounded-md">Tipo de gadget</button>
+      <button class="w-full mt-3 py-2 border rounded-md">Tipo de gadget</button>
+    </div>
+
+    <!-- LIQUIDACIONES -->
+    <div class="bg-white shadow-sm rounded-lg border p-6">
+      <h2 class="font-semibold text-lg mb-3">Liquidaciones</h2>
+
+      <div class="w-full h-48 border-2 border-dashed rounded-md flex items-center justify-center text-gray-400">
+        Gadget 3 (imagen)
+      </div>
+
+      <button class="w-full mt-6 py-2 border rounded-md">Tipo de gadget</button>
+      <button class="w-full mt-3 py-2 border rounded-md">Tipo de gadget</button>
+    </div>
+
+  </div>
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-white border-t py-10 w-full">
+  <div class="w-full px-10 grid grid-cols-2 md:grid-cols-4 gap-8 text-gray-600">
+
+    <div>
+      <h3 class="font-bold mb-2">Inicio</h3>
+      <p>Más vendidas</p>
+      <p>Ofertas</p>
+      <p>Liquidaciones</p>
+    </div>
+
+    <div>
+      <h3 class="font-bold mb-2">Cuenta</h3>
+      <p>Sign Up</p>
+      <p>Log In</p>
+    </div>
+
+    <div>
+      <h3 class="font-bold mb-2">Carrito & Pago</h3>
+      <p>Carrito</p>
+      <p>Métodos de pago</p>
+    </div>
+
+    <div>
+      <h3 class="font-bold mb-2">Ayuda</h3>
+      <p>FAQs</p>
+      <p>Correo de contacto</p>
+      <p>Número de teléfono</p>
+    </div>
+
+  </div>
+
+  <p class="text-center text-gray-500 mt-8">© 2025 Down Gadgets. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

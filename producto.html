@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Producto - Down Gadgets</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="bg-white shadow-sm border-b w-full">
+    <div class="w-full px-8 py-4 flex justify-between items-center">
+      <a href="index.html">
+        <h1 class="text-3xl font-bold">
+          <span class="text-indigo-600">Down</span> Gadgets
+        </h1>
+      </a>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="flex-1 flex items-start justify-center p-6">
+    <div class="bg-white p-8 rounded-lg border shadow-sm max-w-4xl w-full">
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+        <!-- IMAGEN DEL PRODUCTO -->
+        <div class="flex justify-center items-center">
+          <img src="https://via.placeholder.com/400x400.png?text=Producto"
+            class="rounded-lg border shadow-md w-full max-w-xs">
+        </div>
+
+        <!-- INFO DEL PRODUCTO -->
+        <div>
+
+          <h2 class="text-3xl font-bold text-blue-600 mb-3">Nombre del Producto</h2>
+
+          <p class="text-gray-600 mb-4">
+            Descripción breve del producto. Explica sus características principales,
+            beneficios y cualquier información relevante para el cliente.
+          </p>
+
+          <p class="text-2xl font-semibold text-green-600 mb-4">
+            $1,299.00 MXN
+          </p>
+
+          <!-- Opciones -->
+          <div class="space-y-3 mb-6">
+            <label class="block font-medium text-gray-700">Cantidad</label>
+            <input type="number" value="1" min="1"
+              class="w-24 bg-gray-100 border-2 border-gray-300 rounded-md px-3 py-2 focus:border-indigo-500 focus:outline-none">
+          </div>
+
+          <!-- BOTÓN AGREGAR AL CARRITO -->
+          <a href="carrito.html"
+            class="block bg-blue-600 hover:bg-blue-700 text-white text-center font-semibold py-3 rounded-md text-lg">
+            Agregar al carrito
+          </a>
+
+        </div>
+
+      </div>
+
+      <!-- DESCRIPCIÓN DETALLADA -->
+      <div class="mt-10">
+        <h3 class="text-xl font-bold text-blue-600 mb-3">Descripción completa</h3>
+        <p class="text-gray-700 leading-relaxed">
+          Aquí puedes extender la información del producto:
+          especificaciones técnicas, materiales, funcionalidades,
+          compatibilidades, medidas, etc.  
+          <br><br>
+          También puedes incluir una sección de preguntas frecuentes,
+          información adicional o instrucciones de uso.
+        </p>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+
+</html>

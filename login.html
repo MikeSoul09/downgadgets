@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In - Down Gadgets</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="bg-white shadow-sm border-b">
+    <div class="max-w-7xl mx-auto px-4 py-4">
+      <h1 class="text-3xl font-bold">
+        <span class="text-indigo-600">Down</span> Gadgets
+      </h1>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="flex-1 flex items-center justify-center px-4">
+    <div class="w-full max-w-md bg-white p-8 rounded-lg shadow-sm border">
+
+      <h2 class="text-center text-2xl font-semibold text-blue-600 mb-6">
+        Log In
+      </h2>
+
+      <form class="space-y-6">
+
+        <!-- Correo -->
+        <div>
+          <label class="block text-lg text-blue-600 font-medium mb-1" style="text-align: center">Correo Electrónico</label>
+          <input type="email"
+            placeholder="ejemplo@correo.com"
+            class="w-full bg-gray-100 border-2 border-gray-300 rounded-md px-3 py-3 focus:outline-none focus:border-indigo-500">
+        </div>
+
+        <!-- Contraseña -->
+        <div>
+          <label class="block text-lg text-blue-600 font-medium mb-1" style="text-align:center">Contraseña</label>
+          <input type="password"
+            placeholder="Ingresa tu contraseña"
+            class="w-full bg-gray-100 border-2 border-gray-300 rounded-md px-3 py-3 focus:outline-none focus:border-indigo-500">
+        </div>
+
+        <!-- Botón -->
+        <button
+          class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-md text-lg">
+          Iniciar sesión
+        </button>
+
+      </form>
+
+    </div>
+  </main>
+
+</body>
+
+</html>

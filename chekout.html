@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - Down Gadgets</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen">
+
+  <!-- NAV -->
+  <header class="bg-white shadow-sm border-b w-full">
+  <div class="w-full px-8 py-4 flex justify-between items-center">
+    <a href="index.html">
+        <h1 class="text-3xl font-bold">
+          <span class="text-indigo-600">Down</span> Gadgets
+        </h1>
+    </a>
+
+    <nav class="flex items-center space-x-6 text-gray-700">
+      <a href="#" class="hover:text-indigo-600">Más vendidas</a>
+      <a href="#" class="hover:text-indigo-600">Ofertas</a>
+      <a href="#" class="hover:text-indigo-600">Liquidaciones</a>
+
+      <a href="signup.html" class="hover:text-indigo-600">Sign Up</a>
+      <a href="login.html" class="hover:text-indigo-600">Log in</a>
+
+      <a href="carrito.html" class="relative">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+             stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 100 6 3 3 0 000-6zm9.75 0a3 3 0 100 6 3 3 0 000-6zM7.5 14.25h9.75m-12-8.25h14.25l-1.5 6h-12l-1.5-6z"/>
+        </svg>
+
+        <span class="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full px-1">2</span>
+      </a>
+    </nav>
+  </div>
+</header>
+
+  <!-- CONTENEDOR -->
+  <div class="max-w-4xl mx-auto mt-8 bg-white rounded-xl shadow-md p-6">
+
+    <!-- TÍTULO -->
+    <h2 class="text-2xl font-bold mb-6">Checkout</h2>
+
+    <div class="grid md:grid-cols-2 gap-8">
+
+      <!-- PRODUCTOS -->
+      <div>
+        <h3 class="text-xl font-semibold mb-4">Productos</h3>
+
+        <!-- Producto ejemplo -->
+        <div class="border p-4 rounded-lg shadow-sm mb-3">
+          <div class="flex items-center gap-4">
+            <div class="w-20 h-20 bg-gray-200 rounded-lg"></div>
+            <div>
+              <p class="font-semibold">Audífonos Gamer GX Pro</p>
+              <p class="text-sm text-gray-500">Cantidad: 1</p>
+              <p class="font-semibold text-green-600">$899 MXN</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Producto ejemplo -->
+        <div class="border p-4 rounded-lg shadow-sm mb-3">
+          <div class="flex items-center gap-4">
+            <div class="w-20 h-20 bg-gray-200 rounded-lg"></div>
+            <div>
+              <p class="font-semibold">Mouse Inalámbrico UltraSpeed</p>
+              <p class="text-sm text-gray-500">Cantidad: 1</p>
+              <p class="font-semibold text-green-600">$349 MXN</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Total -->
+        <div class="border-t mt-4 pt-4">
+          <p class="text-lg font-bold">Total: <span class="text-green-600">$1,248 MXN</span></p>
+        </div>
+      </div>
+
+      <!-- CONFIRMACIÓN DE ENVÍO -->
+      <div>
+        <h3 class="text-xl font-semibold mb-4">Confirmación de Envío</h3>
+
+        <div class="bg-gray-50 p-4 rounded-lg shadow-sm">
+          <p><span class="font-semibold">Nombre:</span> Juan Carlos</p>
+          <p><span class="font-semibold">Apellidos:</span> Martínez López</p>
+          <p><span class="font-semibold">Teléfono:</span> 5544332211</p>
+          <p><span class="font-semibold">Calle:</span> Av. Siempre Viva 123</p>
+          <p><span class="font-semibold">Colonia:</span> Centro</p>
+          <p><span class="font-semibold">Municipio:</span> Guadalajara</p>
+          <p><span class="font-semibold">Estado:</span> Jalisco</p>
+          <p><span class="font-semibold">País:</span> México</p>
+          <p><span class="font-semibold">Código Postal:</span> 44100</p>
+        </div>
+
+        <!-- BOTÓN -->
+        <a href="metodo_pago.html"
+           class="mt-6 block bg-blue-600 hover:bg-blue-700 text-white text-center py-3 rounded-lg font-semibold shadow-md">
+          Proceder al Pago
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <br><br>
+
+</body>
+</html>
